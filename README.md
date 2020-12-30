@@ -1,6 +1,9 @@
 # My Portfolio
 
 kazama1209のポートフォリオサイト。
+GitHub Pagesにて公開中。
+
+https://kazama1209.github.io/my-portfolio/
 
 ## 使用技術
 
