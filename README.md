@@ -11,8 +11,12 @@ AWS S3 + CloudFrontとGitHub Pagesにて公開中。
 
 - React
 - TypeScript
+- Terraform
 
 デザインは「[Material-UI](https://material-ui.com/)」で作成。
+
+インフラ部分は別リポジトリにて管理。
+https://github.com/kazama1209/my-portfolio-infra
 
 ## 設定
 
