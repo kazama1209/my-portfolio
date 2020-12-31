@@ -4,7 +4,7 @@ import Box from '@material-ui/core/Box'
 import Avatar from '@material-ui/core/Avatar'
 import Typography from '@material-ui/core/Typography'
 
-import Icon from '../static/icon.png'
+import ImageFile from '../static/images/my_avatar.png'
 
 const useStyles = makeStyles((theme) => ({
   large: {
@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const MyIcon: React.FC = () => {
+const MyAvatar: React.FC = () => {
   const classes = useStyles();
 
   return (
@@ -22,7 +22,7 @@ const MyIcon: React.FC = () => {
         <Box display='flex' justifyContent='center' p={1} >
           <Avatar
             alt='Takashiro Kazama'
-            src={Icon}
+            src={ImageFile}
             className={classes.large}
           />
         </Box>
@@ -41,4 +41,4 @@ const MyIcon: React.FC = () => {
   );
 }
 
-export default MyIcon;
+export default MyAvatar;
