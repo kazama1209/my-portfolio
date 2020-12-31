@@ -1,9 +1,11 @@
 # My Portfolio
 
 kazama1209のポートフォリオサイト。
-GitHub Pagesにて公開中。
 
-https://kazama1209.github.io/my-portfolio/
+AWS S3 + CloudFrontとGitHub Pagesにて公開中。
+
+- https://tk-portfolio.site/
+- https://kazama1209.github.io/my-portfolio/
 
 ## 使用技術
 
