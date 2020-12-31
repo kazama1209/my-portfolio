@@ -12,13 +12,13 @@ import FolderIcon from '@material-ui/icons/Folder'
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: 770,
+    width: 780,
     maxWidth: '100%',
   },
 }));
 
 function ListItemLink(props: ListItemProps<'a', { button?: true }>) {
-  return <ListItem button component="a" {...props} />;
+  return <ListItem button component='a' {...props} />;
 }
 
 const Works: React.FC = () => {
@@ -34,14 +34,14 @@ const Works: React.FC = () => {
         </Box>
         <Box display='flex' justifyContent='center' p={1} >
           <List className={classes.root}>
-            <ListItem>
-              <ListItemLink href='https://github.com/kazama1209/ramen-quest'>
+          <ListItem>
+              <ListItemLink href='https://github.com/kazama1209/my-portfolio'>
                 <ListItemAvatar>
                   <Avatar>
                     <FolderIcon />
                   </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary='Ramen Quest' secondary='就活用に作ったラーメンのレビューサイト。' />
+                <ListItemText primary='My Portfolio' secondary='Takashiro Kazamaのポートフォリオサイト。' />
               </ListItemLink>
             </ListItem>
             <ListItem>
@@ -51,27 +51,17 @@ const Works: React.FC = () => {
                     <FolderIcon />
                   </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary='Slack Bot' secondary='趣味で作った天気予報や株価情報などを教えてくれるSlackBot。' />
+                <ListItemText primary='Slack Bot' secondary='天気予報や株価情報などを教えてくれるSlack Bot。' />
               </ListItemLink>
             </ListItem>
             <ListItem>
-              <ListItemLink href='https://github.com/kazama1209/periodic-slack-bot-on-aws-lambda'>
+              <ListItemLink href='https://qiita.com/kazama1209'>
                 <ListItemAvatar>
                   <Avatar>
                     <FolderIcon />
                   </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary='Periodic Lamda' secondary='AWS Lambdaの定期実行用スクリプト。' />
-              </ListItemLink>
-            </ListItem>
-            <ListItem>
-              <ListItemLink href='https://github.com/kazama1209/my-portfolio'>
-                <ListItemAvatar>
-                  <Avatar>
-                    <FolderIcon />
-                  </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary='My Portfolio' secondary='Takashiro Kazamaのポートフォリオサイト。' />
+                <ListItemText primary='Qiita' secondary='絶賛更新中。' />
               </ListItemLink>
             </ListItem>
           </List>
