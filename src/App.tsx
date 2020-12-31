@@ -2,7 +2,7 @@ import React from 'react'
 import Container from '@material-ui/core/Container'
 
 import Navbar from './components/Navbar'
-import MyIcon from './components/MyIcon'
+import MyAvatar from './components/MyAvatar'
 import About from './components/About'
 import Skills from './components/Skills'
 import Works from './components/Works'
@@ -20,7 +20,7 @@ const App: React.FC = () => {
       <main>
         <Container fixed>
           <section>
-            <MyIcon />
+            <MyAvatar />
           </section>
           <section id='about'>
             <About />
