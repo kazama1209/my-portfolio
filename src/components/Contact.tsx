@@ -58,6 +58,11 @@ const Contact: React.FC = () => {
             </Avatar>
           </Link>
         </Box>
+        <Box display='flex' justifyContent='center'>
+          <Typography variant='body1' align='left'>
+            <p>ご連絡お待ちしております！</p>
+          </Typography>
+        </Box>
       </Box>
     </>
   );
