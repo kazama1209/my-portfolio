@@ -1,12 +1,13 @@
 import React from 'react'
 import Container from '@material-ui/core/Container'
 
-import Navbar from './components/Navbar'
+import Header from './components/Header'
 import MyAvatar from './components/MyAvatar'
 import About from './components/About'
 import Skills from './components/Skills'
 import Works from './components/Works'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 import ScrollUp from './utils/ScrollUp'
 
@@ -14,9 +15,9 @@ const App: React.FC = () => {
   
   return (
     <>
-      <nav>
-        <Navbar />
-      </nav>
+      <header>
+        <Header />
+      </header>
       <main>
         <Container fixed>
           <section>
@@ -37,6 +38,9 @@ const App: React.FC = () => {
         </Container>
         <ScrollUp />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
